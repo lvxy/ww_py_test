@@ -54,7 +54,6 @@ def log(f):
 @log
 def f1(x):
     return x*2
- 
 
 print(f1(10))
 
