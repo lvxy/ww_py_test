@@ -1,5 +1,22 @@
+# -*- coding: utf-8 -*-
 '''
-Created on 2016Äê9ÔÂ26ÈÕ
+Created on 2016ï¿½ï¿½9ï¿½ï¿½26ï¿½ï¿½
 
 @author: Administrator
 '''
+
+class Person(object):
+    
+    count = 0
+    
+    def __init__(self, name, gender, birth):
+        Person.count = Person.count + 1
+        
+        self.name = name
+        self.gender = gender
+        self.birth = birth
+
+xiaoMing = Person('å°æ˜', 'Female', '1992-2-2')
+xiaoHui = Person('å°æ˜', 'Female', '1992-2-2')
+
+print(xiaoMing.name+ ' ' +xiaoMing.gender)
