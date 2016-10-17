@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import json
 
 class Person(object):
     def __init__(self,name,gender):
